@@ -1,0 +1,25 @@
+li{
+    text-decoration-line: none;
+    text-decoration: none;
+    outline: none;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
