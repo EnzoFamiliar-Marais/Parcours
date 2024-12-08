@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     let boutonsNav = document.getElementsByClassName('nav');
 
