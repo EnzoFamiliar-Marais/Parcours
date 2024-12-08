@@ -1,0 +1,47 @@
+.bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.bio p {
+    margin: 0.1px ;
+
+}
+
+.SocialMedia {
+    display: flex;
+    align-items: start;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.infofooter{
+    
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+}
+
+section{
+
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
