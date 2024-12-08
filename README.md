@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-# Parcours
-=======
+# Portfolio
 Portfolio
->>>>>>> f73317f (Create README.md)
