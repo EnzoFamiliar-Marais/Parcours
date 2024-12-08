@@ -5,3 +5,4 @@ bt1.onclick = () => {
     bt1.style.fontSize = '200px';
     bt1.style.backgroundColor = 'white';
 }
+
