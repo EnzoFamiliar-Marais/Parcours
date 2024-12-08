@@ -1,0 +1,51 @@
+.nav{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+
+footer{
+    display: flex;
+    font-size: 20px;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #615f5f;
+    border-radius: 10px;
+
+}
+
+ul li a {
+    text-decoration: none; 
+    color: black; 
+}
+
+header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body{
+
+    font-family: 'Lato', sans-serif, 'Arial';
+    font-size: 20px;
+
+
+}

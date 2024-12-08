@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="home.css">
-        <meta charset="utf-8">
         <title> 📚 Mon Portfolio</title>
-        <link rel="stylesheet">
+        <link rel="stylesheet" href="/CSS/index.css">
+        <link rel="stylesheet" href="/CSS/base.css">
         
+
+
+
     </head>
     <body>
+ 
         <header>
-            
-            <h1>Mon Portfolio</h1>
             <nav>
                 <ul>
-                    <li id="1" class="menu"><a href="home.html">Accueil</a></li>
-                    <li id="2" class="menu"><a href="Projet.html">Projets</a></li>
-                    <li id="3" class="menu"><a href="contact.html">Education</a></li>
+                    <li class="nav"><a href="/HTML/index.html">Accueil</a></li>
+                    <li class="nav"><a href="projet.html">Projets</a></li>
+                    <li class="nav"><a href="/HTML/Education.html">Education</a></li>
                 </ul>
             </nav>
         </header>
+
+        <div class="bio">
+            <p><h2>Enzo Familiar-Marais</h2></p>
+            <p><h2>19 ans</h2></p>
+            <p><h2>Bac +2 BUT Informatique</h2></p>
+        </div>
+
         <section>
-            <h2>Accueil</h2>
-            <img src="portfolio.png" alt="">
-            <p>Bienvenue sur mon portfolio </p>
+            <h1>Bienvenue sur mon Portfolio</h1>
             <p>Je m'appelle Enzo Familiar-Marais, j'ai 19 ans et plein de talens. </p>
             <p>Vous êtes actuellement sur mon site personnel créée afin de mieux retranscrire qui je suis et ce que je fais dans la vie.</p>
             <p>
@@ -49,20 +55,18 @@
         </section>
 
         <footer>
-            <p>Enzo Familiar-Marais</p>
             <ul>
-                <li>Contact</li>
-                <li>Mail Universitaire : enzo.familiar-marais@etu.univ-orleans.fr</li>
-                
-                
-                
-
+                <li class="infofooter"><strong>Contact : </strong></li>
+                <li class="infofooter">Mail Universitaire : enzo.familiar-marais@etu.univ-orleans.fr</li>
+                <li class="infofooter">Mail Personnel : enzo.familiar.marais@gmail.com </li>
             </ul>
-        
+            <strong>Réseaux Sociaux</strong>
+            <ul class="SocialMedia">
+                <li class="infofooter"> <a href="https://www.linkedin.com/in/enzo-familiar-7a78622b5/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="linkedin"></a></li>
+                <li class="infofooter"><a href="https://github.com/EnzoFamiliar-Marais"></a> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""></li>
+            </ul>
         </footer>
-
-
-        <script src="home.js"></script> 
-        
+        <script src="../JS/base.js" defer></script>
+        <script src="../JS/index.js" defer></script>
     </body>
 </html>
