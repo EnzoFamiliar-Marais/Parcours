@@ -10,29 +10,77 @@
 
 }
 
-
-footer{
-    display: flex;
-    font-size: 20px;
-    background-color: lightgray;
-    padding: 10px;
-    margin: 10px;
-
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
 }
 
-nav ul{
-    display: flex;
+footer ul {
+    list-style: none;
     padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
     margin: 0;
-    background-color: #615f5f;
-    border-radius: 10px;
-
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-ul li a {
-    text-decoration: none; 
-    color: black; 
+body {
+    background-color: #f4f4f4;
+    color: #333;
 }
+
+/* Navigation */
+header {
+    background: #2c3e50;
+    padding: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+
+.SocialMedia img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.SocialMedia img:hover {
+    transform: scale(1.2);
+}
+
+
 
 header{
     display: flex;
