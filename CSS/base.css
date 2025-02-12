@@ -29,7 +29,6 @@ footer ul li {
     margin: 5px 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 * {
     margin: 0;
@@ -41,6 +40,8 @@ footer ul li {
 body {
     background-color: #f4f4f4;
     color: #333;
+    font-family: 'Lato', sans-serif, 'Arial';
+    font-size: 20px;
 }
 
 /* Navigation */
@@ -90,10 +91,3 @@ header{
     justify-content: center;
 
 }
-
-body{
-
-    font-family: 'Lato', sans-serif, 'Arial';
-    font-size: 20px;
-
-
